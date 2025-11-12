@@ -7,3 +7,9 @@ ggplot(dados, aes(x=Estatura)) +
   labs(title = "Boxplot da variável Estatura",
        x= "Estatura") +
   theme_minimal()
+
+ggplot(dados, aes(x=Peso)) +
+  geom_boxplot(fill = "#266882", color = "black") +
+  labs(title = "Boxplot da variável Peso",
+       x= "Peso") +
+  theme_minimal()
